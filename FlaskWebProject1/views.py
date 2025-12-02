@@ -35,3 +35,13 @@ def about():
         year=datetime.now().year,
         message='Your application description page.'
     )
+
+
+@app.route('/kamran')
+def muhabbat():
+    """Renders the kamran page."""
+    return render_template(
+        'kamran.html',
+        title='Kamran Page',
+        message='Welcome to Kamran\'s page!'
+    )
