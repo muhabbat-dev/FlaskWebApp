@@ -38,7 +38,7 @@ def about():
 
 
 @app.route('/kowshik')
-def muhabbat():
+def kowshik():
     """Renders the kowshik
     page."""
     return "kowshik"
