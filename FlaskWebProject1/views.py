@@ -41,8 +41,4 @@ def about():
 def muhabbat():
     """Renders the kowshik
     page."""
-    return render_template(
-        'Kowshik.html',
-        title='Kowshik Page',
-        message='Welcome to Kowshik\'s page!'
-    )
+    return "kowshik"
